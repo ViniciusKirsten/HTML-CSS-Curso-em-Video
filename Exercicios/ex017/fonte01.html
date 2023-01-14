@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif ;
+            /*medidas absolutas: 
+            *cm= centimetro. 
+            *mm= milimetro. 
+            *in= polegada.
+            *px= pixel.
+            *pt= ponto.
+            *pc=paica. 
+            */
+
+            /*medidas relativas
+            em= relativo ao tamanha atual da fonte(M maiusculo).
+            ex= relativo a altura x de uma fonte(x minuscula).
+            rem= relativo a fonte que está configurada no body.
+            vw= relativo a largura da viewport(viewport=tamanho da tela do usuario).
+            vh= relativo a altura da viewport(viewport=tamanho da tela do usuario).
+            %= porcentagem 
+            */
+
+            /* 16px geralmente= 1em*/
+            font-size: 16px;
+            
+            /*o peso da fonte (nem todas as fontes tem)*/
+            /*[lighter, normal, bold, e bolder]*/
+            font-weight: bold;
+            
+            
+            /*o erstilo da fonte*/
+            font-style: italic;
+
+            /*sublinhado*/
+            text-decoration:underline;
+            
+        }
+        h1 {
+               font-family: Arial, sans-serif;
+               font-weight: bolder;
+               font-size: 3em;
+               font-style: italic;
+               /* SHORTHAND FONT
+               ordem:
+               font-style -> font-weight -> font-size -> font-family
+               
+               como fazer:
+               font: italic bolder 3em Arial, sans-serif;
+               
+               fazendo todo aquele codigo de cima em uma unica linha
+               */
+               
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate mollitia saepe earum quos quidem! Distinctio fugit ipsam consequatur voluptatem blanditiis numquam cumque facere. Ex quis deleniti optio totam illo provident! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laboriosam accusamus facere aliquam fuga et ipsa ipsam ratione exercitationem quisquam. Optio facilis recusandae quae laudantium numquam magni. Facere, sapiente repellendus?</p>
+    <h2>subtitulo do exercicio</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, aliquam nam voluptates minus necessitatibus quam fugiat possimus reiciendis at officiis iusto delectus culpa, molestias quod rem corrupti soluta placeat eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, iste. Libero modi voluptatibus doloribus velit esse? Esse fugit tempora quod odio! Magnam voluptates, omnis ut officiis molestiae deleniti molestias hic!</p> 
+</body>
+</html>

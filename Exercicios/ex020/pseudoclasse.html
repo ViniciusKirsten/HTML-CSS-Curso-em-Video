@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>
+        /*a pseudo-class são palavras que definem estados de elementos dentro do HTML*/
+        div{
+            /*inline-block: quer dizer tudo na mesma linha*/
+            display: inline-block;
+            background-color: aqua;
+            text-align: center;
+            /*borda*/
+            border: 1px solid black;
+            /*altura*/
+            height: 200px;
+            /*largura*/
+            width: 200px;
+            /*cuidao na hora de escrever pq o 'th é trocado, mas o visual studio ajuda com isso*/
+        }
+        /*dois pontos são uma pseudo-classe*/
+        /*essa pseudo-classe houver significa que quando eu passar por cima com o mouse ela vai executar aquilo*/
+        div:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        01
+    </div>
+    <div>
+        02
+    </div>
+    <div>
+        03
+    </div>
+</body>
+</html>
